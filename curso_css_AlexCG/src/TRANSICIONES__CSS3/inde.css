@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.elemento{
+    margin: 40px;
+    width: 90px;
+    height: 200px;
+    background-color: rgb(53, 74, 170);
+    clip-path: circle(100% at  left);
+    transition:background-color,width 0.7s ;
+
+}
+.elemento:hover{
+    width: 200px;
+    background-color: red;
+}

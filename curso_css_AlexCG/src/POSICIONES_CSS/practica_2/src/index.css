@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(blue,black,rgba(0, 128, 0, 0.658));
+    background-repeat: no-repeat;
+    height: 200vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    top: -10px;
+    z-index: 1;
+    background-color: black;
+}
+.menu__titulo{
+    color:white;
+    margin-left: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px black;
+}
+.menu__elementos{
+    margin-right: 60px;
+}
+.menu__elemento:hover{
+    color: blue;
+    display: inline-block;
+    transition: 0.4s;
+    transform: translateY(2px);
+}
+.menu__elemento{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+}
+.con{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.con__titulo{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 5px black;
+
+}
+.con__1{
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    bottom: 50%;
+    margin-left: 20px;
+    transform: translateY(50%);
+    text-align: center;
+    font-weight: bold;
+}
+.con__1__titulo{
+    color: white;
+    text-shadow: 1px 1px 0px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px black;
+}
+.con__1__parrafo{
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.589);
+    line-height: 25px;
+}
+.con__1__btn{
+    margin-bottom: 20px;
+    border-radius: 122px;
+    background-color: rgb(227, 227, 236);
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 25px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 0px white;
+}
+.con__2{
+    position: absolute;
+    bottom: 50%;
+    right: 0px;
+    transform: translateY(50%);
+    margin-right: 20px;
+}
+.con__2__imagen{
+    width: 500px;
+    height: 300px;
+    box-shadow: 1px 1px 10px 0px white;
+    transition: 0.2s;
+}
+.con__2__imagen:hover{
+    transform: translateY(-20px);
+    /* transform: rotate(-10deg); */
+    transition: 0.4s;
+}

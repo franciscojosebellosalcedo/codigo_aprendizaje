@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <nav>
+            {% for datos in lista %}
+                <form action="/editar_persona/{{datos[0]}}" method="post">
+                    
+                        <label for="">Nombres</label>
+                        <input type="text" name="nombres" value="{{datos[1]}}" >
+                        <label for="">Apellidos</label>
+                        <input type="text" name="apellidos" value="{{datos[2]}}" >
+                        <label for="">Edad</label>
+                        <input type="number" name="edad" value="{{datos[3]}}">
+                        <input type="submit" value="Guardar cambios">
+                    
+                </form>
+            {% endfor %}
+        </nav>
+       
+        
+       
+        
+    </nav>
+</body>
+</html>

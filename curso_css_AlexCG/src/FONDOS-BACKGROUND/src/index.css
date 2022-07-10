@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.con{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.219),black),url(./tarjeta_perfil/imagenes/imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+}

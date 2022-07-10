@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.con{
+    border: 1px solid;
+    width: 40%;
+    position: absolute;
+    right: 90px;
+    height: 220px;
+    margin: 30px auto;
+    border-radius:12px ;
+    background-color: rgba(255, 166, 0, 0.534);
+    
+    font-size: 20px;
+}
+.con__titulo{
+    color: crimson;
+    margin-bottom: rem;
+    margin-left: 1rem;
+
+    /* font-size: 1 rem; */
+}
+.con__texto{
+    margin-left: 20px;
+    line-height: 100%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+    /* font-size: 16px; */
+}
+.con__btn{
+    border: none;
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 255, 0.61);
+    color: white;
+    cursor: pointer;
+    
+    /* font-size: 16px; */
+}

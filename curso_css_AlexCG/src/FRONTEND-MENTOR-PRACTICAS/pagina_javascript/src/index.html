@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+  <div class="linea"></div>
+
+  <header class="cabeza">
+
+    <nav class="menu">
+      <img class="menu__imagen" src="./img/logo.svg" alt="imagen" >
+      <ul class="menu__listas">
+        <li><a href="#">Factures</a></li>
+        <li>
+          <a href="#">What we do</a>
+          <div class="container">
+            <section>
+              <h3>Code Quality</h3>
+              <p>Keep a clean codebase and improves your velocity</p>
+              <a href="#">Discover</a>
+            </section>
+            <section>
+              <h3>Code Security</h3>
+              <p>Deliver secure code with Static Application Security Testing</p>
+              <a href="#">Discover</a>
+            </section>
+          </div>
+        </li>
+        <li><a href="#">What's new</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
+
+    <div class="usuario">
+      <a href="#">Explore</a>
+      <a class="usuario__login" href="#">Login</a>
+    </div>
+
+  </header>
+
+  <section class="cuerpo">
+    <div class="container__texto">
+      <h1 id="titulo_1" class="container__titulo">Clean Code
+      </h1>
+      <h1 id="titulo_2" class="container__titulo">Rockstar Status</h1>
+      <p class="parrafo">
+        Eliminate bugs and vulnerabilities.
+        Champion quality code in your projects.
+      </p>
+      <p class="parrafo_2">Go ahead! Analyze your repo:</p>
+
+      <div class="flex">
+        <div class="flex__item">Dainer</div>
+        <div class="flex__item">Isco</div>
+        <div class="flex__item">Bola</div>
+        <div class="flex__item">Machete</div>
+      </div>
+    </div>
+    <img class="cuerpo__imagen" src="./img/quality_gate_Passed.png" alt="imagen">
+  </section>
+
+
+  <section class="modal">
+
+    <div class="modal__container">
+      <p class="modal__cerrar">X</p>
+      <h2 class="modal__titulo">Login</h2>
+      <form class="modal__formulario">
+        <label for="correo" class="modal__label">Correo:</label>
+        <input type="email" id="correo" class="modal__input">
+        <label for="contraseña" class="modal__label">Contraseña:</label>
+        <input type="password" id="contraseña" class="modal__input">
+        <button class="modal__boton">Iniciar Sesion</button>
+      </form>
+    </div>
+
+  </section>
+  <script src="./js/index.js"></script>
+</body>
+</html>

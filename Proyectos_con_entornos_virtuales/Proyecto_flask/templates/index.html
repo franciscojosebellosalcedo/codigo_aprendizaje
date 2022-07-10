@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+             ¡ BIENVENIDO !
+        </h1>
+        <h2>
+          <u> REGISTRO DE PERSONAS.</u>
+        </h2>
+        <h3> NOTA: Solo se pueden registrar personas mayores de edad.</h3>
+    </header>
+    
+    {% with mensages=get_flashed_messages() %}
+    {% if mensages %}
+    {% for mensage in mensages %}
+        <p>{{ mensage }}</p>>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <div>
+        <form action="/agregar_persona" method="POST">
+            <label for="">Nombres</label>
+            <input type="text" name="nombres" placeholder="Nombres" >
+            
+            <label for="">Apellidos</label>
+            <input type="text" name="apellidos" placeholder="Apellidos">
+            
+            <label for="">Edad</label>
+            <input type="number" name="edad" placeholder="Edad" >
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <br>
+    <div>
+        <table>
+            <caption>Personas</caption>
+            <thead>
+                <tr>
+                    <td>Nombres</td>
+                    <td>Apellidos</td>
+                    <td>Edad</td>
+                    <td>Operaciones</td>
+                </tr>
+            </thead>
+            <tbody>
+              {% for persona in data %}
+              <tr>
+                  <td>{{persona.1}}</td>
+                  <td>{{persona.2}}</td>
+                  <td>{{persona.3}}</td>
+                  <td><a href="/recibir_dato/{{persona.0}}">Editar</a></td>
+                  <td><a href="/eliminar_persona/{{persona.0}}">Eliminar</a></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

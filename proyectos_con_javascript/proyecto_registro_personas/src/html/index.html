@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Mi primer App</title>
+</head>
+<body>
+    <main>
+        <div class="header"><h1><strong>App Registro Persona</strong></h1></div>
+        <div>
+            <div class="card">
+                <div class="card-header">
+                    <h4>Formulario</h4>
+                </div>
+                <div class="card-body">
+                    <form id="formulario">
+                        <div class="form-group">
+                            <input placeholder="Ingrese su nombre" type="text"  id="nombre">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input placeholder="Ingrese sus apellidos" type="text"  id="apellido">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input placeholder="Ingrese su documento" type="number"  id="documento">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input placeholder="Ingrese su edad" type="number"  id="edad">
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <button id="boton" class="btn-success">Guardar Datos</button>
+                </div>
+            </div>
+        </div>
+        <div id="contenedor">
+
+        </div>
+    </main>
+    <script src="../js/index.js"></script>
+</body>
+</html>

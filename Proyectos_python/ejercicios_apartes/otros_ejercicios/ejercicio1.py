@@ -1,0 +1,20 @@
+import os,time
+os.system("cls")
+time.sleep(1)
+n1=int(input("Ingrese un numero posotivo:"))
+n2 = int(input("Ingrese un numero posotivo:"))
+if (n1<0 or n2<0):
+    exit()
+print("SUMA DE LOS NUMEROS")
+print("  ")
+suma=(n1+n2)
+print("la suma entre",n1,"y",n2,"es de:",suma)
+print("MULTIPLICACION DE LOS NUMEROS")
+print("  ")
+multi=(n1*n2)
+print("la multiplicacion entre",n1,"y",n2,"es de:",multi)
+print("DIVISION ENTRE LOS NUMEROS")
+print("  ")
+div=(n1/n2)
+print("la division entre",n1,"y",n2,"es de:",div)
+   

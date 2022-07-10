@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal {
+    margin:30px;
+    text-align: center;
+    width: 30%;
+}
+.principal > a{
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    color:black; 
+}
+.con{
+    display: flex;
+    justify-content: center;
+}
+.ver-1:hover{
+    color: black;
+    border-radius: 8px;
+    box-shadow: 1px 1px 12px 5px red;
+    background-color: darkgoldenrod;
+    transition: 1s;
+}
+.ver-2:hover{
+    color: black;
+    border-radius: 8px;
+    box-shadow: 1px 1px 12px 5px red;
+    background-color: darkgoldenrod;
+    transition: 1s;
+}
+.ver-3:hover{
+    color: black;
+    border-radius: 8px;
+    box-shadow: 1px 1px 12px 5px red;
+    background-color: darkgoldenrod;
+    transition: 1s;
+}
+
+.targeta-1{
+    background-color: rgb(148, 14, 43);
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 12px 5px;
+    height: 0;
+    overflow: hidden;
+    transition:0.7s;
+}
+.targeta-2{
+    background-color: rgb(148, 14, 43);
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 12px 5px;
+    height: 0;
+    overflow: hidden;
+    transition:0.7s;
+}
+.targeta-3{
+    background-color: rgb(148, 14, 43);
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 12px 5px;
+    height: 0;
+    overflow: hidden;
+    transition:0.7s;
+}
+.ver-1:hover + .targeta-1{
+    height:130px;
+    
+    transition:1s;
+}
+.ver-2:hover + .targeta-2{
+    height:130px;
+    transition:1s;
+}
+.ver-3:hover + .targeta-3{
+    height:130px;
+    transition:1s;
+}
+
+

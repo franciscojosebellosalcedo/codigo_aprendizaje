@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.index{
+    border: 1px solid;
+    width: 40%;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 3px ;
+    font-size: 15px;
+}
+.con{
+    margin: 20px;
+}
+
+/*combinador descendiente (en espacio en blanco)*/
+
+.con  .titulo-3{
+    border: 1px solid;
+    border-radius: 12px;
+    background-color: blue;
+}
+
+/*combinador de hijo directo ( > )*/
+
+.lista > .titulo-3{
+    list-style:decimal;
+    color: red;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: black;
+    border: 1px solid;
+    margin-top:10px;
+    border-radius: 10px;
+}
+
+/*combinador de hermano adyacente ( + )*/
+
+.articulo + .parrafo{
+    /*No realiza el cambio porque se esta utilizando la virguilla abajo*/
+    color: yellow;
+}
+
+
+/*combinador de hermano adyacente seleccionara a todos los hermanos ( ~ )*/
+
+.articulo ~ .parrafo{
+    color: rgb(0, 89, 255);
+}
+
+
+/*selector de atributo*/
+[class]{
+    color: red;
+}
+[value~="Francisco"]{
+    color:red;
+}
+[value^="bello"]{
+    color:yellow;
+}
+[value$="salcedo"]{
+    color:rgb(68, 0, 255);
+}
+

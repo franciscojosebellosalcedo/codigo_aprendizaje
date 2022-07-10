@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: lightblue;
+}
+.con{
+    display: flex;
+    width: 80%;
+    max-width: 100%;
+    min-width: 60%;
+    max-height: 700px;
+    min-height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.74),rgba(0, 0, 0, 0.815));
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 0px;
+}
+.con__1{
+    margin: 2px;
+}
+.con__1__titulo{
+    text-align: center;
+    margin-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: black;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 30px;
+    text-shadow: 2px 2px 0px rgb(141, 161, 28);
+}
+.con__1__imagen{
+    max-width: 80%;
+    min-width: 40%;
+    height: 300px;
+    max-height: 350px;
+    min-height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url(./imagenes/imagen.jpg);
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px 0px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+.con__1__texto{
+    width: 70%;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.747);
+    border-top: 5px solid rgba(5, 5, 5, 0.918);
+    border-top-style:dotted ;
+    padding-top:10px ;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.con__1__btn{
+    display: block;
+    text-align: center;
+    background-color: white;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 7px 0px white; 
+    color: black;
+}
+.con__1__btn:hover{
+    background-color: #000000;
+    color: white;
+    transition-duration: 0.5s;
+}
+.con__2{
+    margin: 2px;
+}
+.con__2__titulo{
+    text-align: center;
+    margin-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: black;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 30px;
+    text-shadow: 2px 2px 0px rgb(141, 161, 28);
+}
+.con__2__imagen{
+    max-width: 80%;
+    min-width: 40%;
+    height: 300px;
+    max-height: 350px;
+    min-height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url(./imagenes/paisaje.jpg);
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px 0px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+.con__2__texto{
+    width: 70%;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.747);
+    border-top: 5px solid rgba(5, 5, 5, 0.918);
+    border-top-style:dotted;
+    padding-top:10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.con__2__btn{
+    display: block;
+    text-align: center;
+    background-color: white;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 7px 0px white;
+    color: #000000;
+}
+.con__2__btn:hover{
+    background-color: #000000;
+    color: white;
+    transition-duration: 0.5s;
+}

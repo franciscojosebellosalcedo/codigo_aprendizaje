@@ -1,0 +1,81 @@
+/* *{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* etiquetas en blokes (ocupan todo el ancho del navegador) */
+/* .titulo{
+    background-color: yellow;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 12px;
+} */
+/*etiquetas en lineas (ocupan solo su porcion de espacio en el navegador)*/
+/* .btn{
+    background-color: rgb(78, 73, 73);
+    color: white;
+    display:block;
+    width: 100px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin:auto;
+    transition: 1s;
+} */
+/* .btn:hover{
+    box-shadow: 1px 1px 10px 0 blueviolet;
+    transition: 0.4s;
+} */
+
+.card{
+    border: 1px solid;
+    width: 220px;
+    margin:auto;
+    background:linear-gradient(black,blue);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: arial;
+    box-shadow: 1px 1px 10px black;
+    margin-top: 50px;
+    max-height: 400px;
+}
+.card__imagen{
+    width: 200px;
+    display: block;
+    margin:0px auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px white;
+}
+.card__titulo{
+    border-bottom: 1px solid;
+    margin: 10px;
+    
+}
+.card__btn{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px blue;
+    transition: 0.4s;
+    padding: 10px;
+}
+.card__btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+} 
+.card__parrafo{
+    margin-left: 10px;
+    margin-right: 10px;
+}

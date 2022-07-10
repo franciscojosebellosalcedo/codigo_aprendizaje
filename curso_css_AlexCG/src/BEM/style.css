@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navegacion{
+    background-color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 60px;
+}
+.navegacion__titulo{
+    margin-left: 30px;
+}
+.navegacion__enlace{
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+}

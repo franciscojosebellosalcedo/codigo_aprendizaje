@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 200vh;
+}
+.menu{
+    width: 50%;
+    height: 60px;
+    margin: auto;
+    position: fixed;
+    background-color: rgba(47, 13, 199, 0.568);
+}
+.texto{
+    position: absolute;
+    top: 60px;
+    color: black;
+}

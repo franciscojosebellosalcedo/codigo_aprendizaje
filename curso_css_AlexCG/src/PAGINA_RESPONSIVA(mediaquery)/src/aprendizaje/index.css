@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+.contenedor{
+    max-width: 80%;
+    max-height: 400px;
+    margin:auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 10px 0px white;
+}
+.imagen{
+    height: 100%;
+    width: 100%;
+}
+@media (max-width:500px)  {
+    .contenedor{
+        width: 50%;
+        margin: auto;
+        margin-top: 40px;
+        height: 300px;
+        transition: 0.4s;
+    }
+}

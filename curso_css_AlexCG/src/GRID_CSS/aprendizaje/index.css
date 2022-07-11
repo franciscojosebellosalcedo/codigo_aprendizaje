@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width:80%;
+    height: 600px;
+    /* border: 1px solid; */
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(4,1fr);
+    gap: 20px;
+    grid-template-areas: 
+        "elemento1 elemento1 elemento3"
+        "elemento1 elemento1 elemento3"
+        "elemento2 elemento2 elemento2"
+        "elemento2 elemento2 elemento2"
+    ;
+    
+    
+}
+.item{
+    /* width: 60px;
+    height: 60px; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 11px 0px;
+}
+
+
+.item1{
+    grid-area: elemento2;
+    background-color: rgba(57, 5, 5, 0.781);
+}
+.item2{
+    grid-area: elemento1;
+    background-color: rgb(226, 137, 137);
+    
+}
+.item3{
+    grid-area: elemento3;
+    background-color: rgb(51, 223, 20);
+}
+.item4{
+
+    background-color: rgb(20, 95, 223);
+}
+.item5{
+
+    background-color: rgb(223, 20, 20);
+}
+.item6{
+
+    background-color: rgb(20, 223, 155);
+}
